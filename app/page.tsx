@@ -663,7 +663,7 @@ export default function Home() {
               <CardHeader>
                 <CardTitle className="text-2xl text-white">Coming Soon</CardTitle>
                 <CardDescription className="text-lg text-gray-300">
-                  We're putting the finishing touches on our pricing plans. 
+                  We are putting the finishing touches on our pricing plans. 
                   Join the waitlist to be notified when we launch!
                 </CardDescription>
               </CardHeader>
@@ -713,7 +713,7 @@ export default function Home() {
                       ref={submittedMessageRef}
                       className="text-sm text-purple-400 text-center"
                     >
-                      ✓ Thanks! We'll be in touch soon.
+                      ✓ Thanks! We will be in touch soon.
                     </p>
                   )}
                 </form>
