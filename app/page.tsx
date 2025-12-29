@@ -690,33 +690,14 @@ export default function Home() {
           <div ref={waitlistCardRef}>
             <Card className="border-gray-800 bg-gray-900/30 backdrop-blur-sm">
               <CardContent className="pt-6">
-                <form onSubmit={handleSubmit} className="space-y-4">
-                  <div 
-                    ref={waitlistFormRef}
-                    className="flex gap-4"
-                  >
-                    <Input
-                      type="email"
-                      placeholder="Enter your email address"
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
-                      required
-                      className="flex-1 bg-gray-800/50 border-gray-700 text-white placeholder:text-gray-500"
-                    />
-                    <Button type="submit" variant="white" size="lg">
-                      <Mail className="mr-2 h-4 w-4" />
-                      Submit
-                    </Button>
-                  </div>
-                  {submitted && (
-                    <p 
-                      ref={submittedMessageRef}
-                      className="text-sm text-purple-400 text-center"
-                    >
-                      ✓ Thanks! We will be in touch soon.
-                    </p>
-                  )}
-                </form>
+              <iframe
+                data-tally-src="https://tally.so/embed/b59PL1?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+                loading="lazy"
+                width="100%"
+                height="600"
+                frameBorder={0}
+                title="PhishForge Waiting List"
+              />
                 <p className="text-xs text-gray-500 mt-4 text-center">
                   Or use our{" "}
                   <a 
@@ -778,3 +759,5 @@ export default function Home() {
     </div>
   );
 }
+
+
