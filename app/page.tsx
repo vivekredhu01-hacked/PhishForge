@@ -474,7 +474,7 @@ export default function Home() {
             ref={heroSubtitleRef}
             className="mx-auto max-w-2xl text-lg sm:text-xl text-gray-300 mb-10"
           >
-            Train Your Team Against Tomorrow's Attacks - Affordable for SMBs
+            Train Your Team Against Tomorrow Attack - Affordable for SMBs
           </p>
           <div 
             ref={heroButtonsRef}
